@@ -1,7 +1,7 @@
 ---
 title: Software
 index: 3
-description: A collection of links to all important MQTT brokers/servers, MQTT client libaries, tools and plugins.
+description: A collection of links to all important MQTT brokers/servers, MQTT client libraries, tools and plugins.
 ---
 
 <section class="content-floating">
@@ -19,11 +19,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
    <!-- Entry -->
-   <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="MQTT Logo">
-         <div class="panel-item-description"><a href="https://theakiro.com/"><h3>Akiro by Sentienz</h3></a>
-            Akiro MQTT Broker by <a href="https://sentienz.com/">Sentienz</a> is a high scale MQTT broker and needs a 10 node cluster for 10 Million active MQTT connections. It's written in Java with Vert.X's async paradigm.
+         <img src="{{ 'assets/img/software/akiro-logo.svg' | relative_url }}" class="software-logo" alt="Akiro MQTT Logo">
+         <div class="panel-item-description"><a href="https://www.akiroio.com/"><h3>Akiro MQTT</h3></a>
+            <a href="https://www.akiroio.com/">Akiro</a> MQTT Broker is a high scale MQTT broker with support for more than 20 Million active MQTT connections with over 1 Million messages per second. It's written in Java with Vert.X's async paradigm. <a href="https://github.com/Akiro-IO/akiro-clients">Akiro clients</a> can be used to communicate with the free to use <a href="https://www.akiroio.com/get-started">Akiro SaaS MQTT Broker</a>. Akiro supports MQTT, Websockets over MQTT, HTTP over MQTT, DLMS, OCPP with TLS support.
          </div>
       </div>
    <!-- Entry -->
@@ -43,15 +42,30 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="Bevywise Logo">
-         <div class="panel-item-description"><a href="https://www.bevywise.com/mqtt-broker/"><h3>Bevywise MQTT Broker</h3></a>
-         MQTTRoute is a high performance broker.  The Secure MQTT Broker is written in C &amp; Python and works with all standard MQTT Clients. Bevywise MQTT Broker has a FREE and affordable premium version. MQTTRoute can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="http://mqttroute.com/">publicly hosted MQTTRoute</a>.
+         <div class="panel-item-description"><a href="https://www.bevywise.com/mqtt-broker/"><h3>Bevywise CrystalMQ (Formerly MQTTRoute)</h3></a>
+         <a href="https://www.bevywise.com/mqtt-broker/">CrystalMQ</a>, A high-performance MQTT broker designed for large-scale IoT deployments. Supports millions of connections with advanced features like multi-tenancy, clustering for high availability, and robust security controls. Ideal for industries needing real-time, low-latency communication. Broker can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="https://www.bevywise.com/mqtt-broker/download.html">fully FREE version here</a>.
          </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+          <img src="{{ 'assets/img/software/bifromq.png' | relative_url }}" class="software-logo" alt="BifroMQ Logo">
+          <div class="panel-item-description">
+          <a href="https://bifromq.io"><h3>BifroMQ</h3></a>
+          <p><a href="https://bifromq.io">BifroMQ</a>, open-sourced by <b>Baidu</b>, is a distributed MQTT messaging middleware designed for high performance. Its standout feature is the native multi-tenancy support, which enhances resource sharing and workload isolation. The system's architecture integrates a distributed storage engine, tailored for environments with high load, reducing reliance on external middleware. BifroMQ is well-suited for developing large IoT networks and messaging systems, providing scalable, cloud-based, serverless solutions for extensive operations.</p>
+           </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="Cassandana Logo">
          <div class="panel-item-description"><a href="https://github.com/mtsoleimani/cassandana/"><h3>Cassandana</h3></a>
          Cassandana is an open source MQTT message broker which is entirely written in Java. This project began its life as a fork of <a href="https://github.com/andsel/moquette">Moquette</a> , and later underwent some cleanup, optimization and adding extra features. Now it’s ready to work as an enterprise message broker.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/coreflux.png' | relative_url }}" class="software-logo" alt="Coreflux Logo">
+         <div class="panel-item-description"><a href="https://www.coreflux.org"><h3>Coreflux</h3></a>
+         Coreflux is a Data Hub, based on MQTT 3.1.1 and 5.0, designed to handle vast amounts of data from various sources, whether they be IoT devices, databases, applications, or external systems. The system can run flux assets that act as connectors, orchestrators, or model generators. Often considered an <b>MQTT Broker on Steroids</b>, you can check the <a href="https://docs.coreflux.org">documentation</a> for more information!
          </div>
       </div>
    <!-- Entry -->
@@ -70,10 +84,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/emq.png' | relative_url }}" class="software-logo" alt="EMQ X Logo">
-         <div class="panel-item-description"><a href="https://www.emqx.com/en/products/emqx"><h3>EMQ X</h3></a>
-            <a href="https://www.emqx.io/">EMQ X Broker</a> is a fully open source, highly scalable, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.<br/>
-            Starting from 3.0 release, EMQ X broker fully supports MQTT V5.0 protocol specifications and backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the EMQ X Broker can scaled to 10+ million concurrent MQTT connections on one cluster.
+         <img src="{{ 'assets/img/software/emq.png' | relative_url }}" class="software-logo" alt="EMQX Logo">
+         <div class="panel-item-description"><a href="https://www.emqx.com/en/products/emqx"><h3>EMQX</h3></a>
+            <a href="https://www.emqx.io/">EMQX</a> is a fully open source, highly scalable, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.<br/>
+            Starting from 3.0 release, EMQX fully supports MQTT V5.0 protocol specifications and is backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the EMQX can scaled to 10+ million concurrent MQTT connections on one cluster.
             <a href="https://twitter.com/EMQTech">@EMQTech</a>
          </div>
       </div>
@@ -137,7 +151,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo" alt="IBM Logo">
          <div class="panel-item-description"><a href="https://www.eclipse.org/amlen/docs/welcome.html"><h3>Eclipse Amlen</h3></a>
-            Eclipse Amlen (<a href="https://www.ibm.com/us-en/marketplace/watson-iot-platform-message-gateway">IBM WIoTP Message Gateway</a>opensourced IBM mqtt broker) is a scalable, hightly available messaging broker for MQTT (including MQTT v5, HTML5 WebSockets, JMS. Also connects/bridges IBM MQ, IBM Integration Bus, Kafka with Amlen bridge. (Was formerly called IBM IoT MessageSight).
+            Eclipse Amlen (<a href="https://www.ibm.com/us-en/marketplace/watson-iot-platform-message-gateway">IBM WIoTP Message Gateway</a>opensourced IBM mqtt broker) is a scalable, highly available messaging broker for MQTT (including MQTT v5, HTML5 WebSockets, JMS. Also connects/bridges IBM MQ, IBM Integration Bus, Kafka with Amlen bridge. (Was formerly called IBM IoT MessageSight).
          </div>
       </div>
    <!-- Entry -->
@@ -182,6 +196,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             Mosquitto is an Open Source MQTT server. A public, hosted test server is also available (<a href="https://test.mosquitto.org/">more information</a>)
          </div>
       </div>
+  <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo" alt="Mosquitto Logo">
+         <div class="panel-item-description"><a href="https://cedalo.com/mqtt-broker-pro-mosquitto/"><h3>Pro Edition for Eclipse Mosquitto (Server)</h3></a>
+            A pro version of the world’s #1 MQTT broker, offering <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/high-availability/">High Availability</a>, access to REST API, improved reliability, enhanced security, and professional support. An ideal solution for commercial use. <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/trial-signup/">Access a free 14-day trial (cloud) now!</a>
+         </div>
+      </div>
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/mqttnet.png' | relative_url }}" class="software-logo" alt="MQTTnet Logo">
@@ -198,9 +219,16 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/nanomq.png' | relative_url }}" class="software-logo" alt="NanoMQ Logo">
+         <img src="{{ 'assets/img/software/nanomq.svg' | relative_url }}" class="software-logo" alt="NanoMQ Logo">
          <div class="panel-item-description"><a href="https://nanomq.io/"><h3>NanoMQ</h3></a>
          A light-weight and blazing-fast MQTT Broker for the IoT Edge platform. NanoMQ is based on NNG's asynchronous I/O threading model. With an extension of MQTT support in the protocol layer and reworked transport layer. Plus an enhanced asynchronous I/O mechanism to maximize the throughput capacity.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/Quix-logo_150x65.png' | relative_url }}" class="software-logo" alt="Quix Logo">
+         <div class="panel-item-description"><a href="https://quix.io/docs/kb/what-is-quix.html"><h3>Quix</h3></a>
+         Quix is an <a href="https://github.com/quixio/quix-streams">open source</a> Python library for stream processing data in Kafka. Designed around DataFrames, it provides a best in class Python developer experience for building real-time data pipelines. Stateful, scalable and fault tolerant. No wrappers. No JVM. No cross-language debugging. Deploy pipelines on premise or on Quix Cloud for easy management. Ingest data with a ready-to-run <a href="https://quix.io/docs/connectors/mqtt-source.html">MQTT connector</a> for simple integration. 
          </div>
       </div>
    <!-- Entry -->
@@ -208,6 +236,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <img src="{{ 'assets/img/software/rabbitmq.png' | relative_url }}" class="software-logo" alt="RabbitMQ Logo">
          <div class="panel-item-description"><a href="http://rabbitmq.com/"><h3>RabbitMQ</h3></a>
          RabbitMQ is an AMQP message broker – with an <a href="http://www.rabbitmq.com/blog/2012/09/12/mqtt-adapter/">MQTT plugin</a> (bundled in version 3.x onwards). A public test server is also available (<a href="https://github.com/mqtt/mqtt.github.io/wiki/public_brokers">more information</a>).
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/rumqtt.png' | relative_url }}" class="software-logo" alt="Rumqtt Logo">
+         <div class="panel-item-description"><a href="https://github.com/bytebeamio/rumqtt"><h3>Rumqttd</h3></a>
+         Rumqttd is a high performance MQTT broker written in Rust. It's light weight and embeddable, meaning you can use it as a library in your code and extend functionality.
          </div>
       </div>
    <!-- Entry -->
@@ -243,7 +278,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/vertx.svg' | relative_url }}" class="software-logo" alt="Vert.x Logo" style="padding: 5px 20px; box-sizing: border-box;">
          <div class="panel-item-description"><a href="https://github.com/GruppoFilippetti/vertx-mqtt-broker"><h3>Vert.x MQTT Broker</h3></a>
-        Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for authentication. It uses <a href="http://vertx.io/">vert.x</a> as library for tcp managemnet, non-blocking / actor-model, clustering and auth plugin system.
+        Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for authentication. It uses <a href="http://vertx.io/">vert.x</a> as library for tcp management, non-blocking / actor-model, clustering and auth plugin system.
          </div>
       </div>
    <!-- Entry -->
@@ -260,11 +295,25 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol. The services include bi-directional push for instant-messaging, real-time analyzing, real-time online monitoring.
          </div>
       </div>
+   <!-- Entry -->
+      <div class="panel-item">
+        <img src="{{ 'assets/img/software/harksys.png' | relative_url }}" class="software-logo" alt="Hark Logo">
+        <div class="panel-item-description"><a href="https://harksys.com/platform/hark-connect/"><h3>Hark Connect</h3></a>
+          The <a href="https://harksys.com">Hark</a> broker is an MQTT broker written in C# for edge to cloud communication. This broker supports TLS/SSL for layered security and functions as a stand alone broker that can subscribe to topics from other applications (not just The Hark Platform). Hark's low-code solution supports an extremely large number of connections while maintaining security at its core.
+        </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- End of Servers / Brokers Panel -->
    <button id="cloud-brokers" class="accordion">Cloud Brokers</button>
    <div class="panel">
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/coreflux.png' | relative_url }}" class="software-logo" alt="Coreflux Logo">
+         <div class="panel-item-description"><a href="https://mqtt.coreflux.org"><h3>Coreflux Cloud Broker</h3></a>
+         The Coreflux Cloud Broker aims to deliver an experience akin to an edge broker, but with a focus on scalability, integration, and zero-trust policies. It supports MQTT versions 3.1.1 and 5.0, and is designed to manage vast quantities of data from a variety of sources, including IoT devices, databases, applications, or external systems. The system is capable of running "flux assets" that function as connectors, orchestrators, or model generators. Often referred to as an <b>"MQTT Broker on Steroids"</b>, you can check the <a href="https://docs.coreflux.org">documentation</a> for more details. Additionally, you have the opportunity to set up a <a href="https://mqtt.coreflux.org">free 14-day MQTT cloud broker trial</a> by visiting Coreflux Cloud Broker.
+         </div>
+      </div>
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;" alt="HiveMQ Cloud Logo">
@@ -281,10 +330,31 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/emqx-cloud.svg' | relative_url }}" class="software-logo" style="..." alt="EMQ X Cloud Logo">
-         <div class="panel-item-description"><a href="https://www.emqx.com/en/cloud"><h3>EMQ X Cloud</h3></a>
-         EMQ X Cloud is a cloud-native fully managed MQTT Service which can which can connect massive amounts of IoT devices and process real-time data. In the era of the Internet of Everything, EMQ X Cloud can help you quickly build industry applications for the IoT domain and easily collect, transmit, compute, and persist IoT data. <a href="https://www.emqx.com/en/cloud">Free trial now</a>.
+         <img src="{{ 'assets/img/software/emqx-cloud.svg' | relative_url }}" class="software-logo" style="..." alt="EMQX Cloud Logo">
+         <div class="panel-item-description"><a href="https://www.emqx.com/en/cloud"><h3>EMQX Cloud</h3></a>
+         EMQX Cloud is a fully managed MQTT service for IoT. Connecting massive devices to the EMQX Cloud for reliable, real-time IoT data transmission, processing, and integration. Accelerate business that matters while avoiding the headaches of infrastructure management. <a href="https://www.emqx.com/en/try?product=cloud">Free trial now</a>.
          </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo" alt="Mosquitto Logo">
+         <div class="panel-item-description"><a href="https://cedalo.com/mqtt-broker-pro-mosquitto/"><h3>Pro Edition for Eclipse Mosquitto (Cloud)</h3></a>
+            A pro version of the world’s #1 MQTT broker, offering <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/high-availability/">High Availability</a>, access to REST API, improved reliability, enhanced security, and professional support. An ideal solution for commercial use. <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/trial-signup/">Access a free 14-day trial now!</a>
+         </div>
+      </div>
+      <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="MQTTRoute Logo">
+         <div class="panel-item-description"><a href="https://www.bevywise.com/hosted-mqtt-server/"><h3>CrystalMQ Cloud</h3></a>
+            <a href="https://www.bevywise.com/hosted-mqtt-server/">CrystalMQ, the Cloud MQTT Broker</a> is a fully hosted and managed MQTT broker solution designed for seamless IoT communication. Supports unlimited client connections with built-in scalability, real-time monitoring, and advanced security features. Ideal for businesses seeking hassle-free, cloud-native infrastructure for their IoT deployments. Try the <a href="https://myaccount.crystalmq.com/">cloud version for FREE</a>.
+         </div>
+      </div>
+      <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/harksys.png' | relative_url }}" class="software-logo" alt="Hark Logo">
+        <div class="panel-item-description"><a href="https://harksys.com/platform/"><h3>Hark Platform</h3></a>
+          The <a href="https://harksys.com">Hark</a> Platform provides a cloud native hosted MQTT services with support for managing users, ACLs at a tennanted level. Additional features such as triggers, automations and integrations allow users to rapidly deploy IoT solutions in a serverless fashion. Use cases include sensors, industrial assets and other internet connected devices. <a href="https://harksys.com/contact/">Get a free trial.</a>
+        </div>
       </div>
    <!-- closing div -->
    </div>
@@ -308,6 +378,15 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <ul>
          <li><a href="https://github.com/yangboz/as3MQTT">as3MQTT</a></li>
       </ul>
+      <div class="subhead">Ada</div>
+      <ul>
+         <li><a href="https://github.com/persan/mosquitto-ada">mosquitto-ada</a> - A binding to libmosquitto</li>
+         <li><a href="http://www.dmitry-kazakov.de/ada/components.htm#MQTT">Simple Components MQTT</a> - Pure Ada MQTT client and server/broker</li>
+      </ul>
+      <div class="subhead">Ballerina</div>
+      <ul>
+         <li><a href="https://github.com/ballerina-platform/module-ballerina-mqtt">Ballerina MQTT</a> - The Ballerina MQTT client library which supports MQTTv5. More details on the client APIs can be read <a href="https://lib.ballerina.io/ballerina/mqtt/latest">here</a></li>
+      </ul>
       <div class="subhead">Bash</div>
       <ul>
          <li>see <a href="#shell-script">Shell Script</a>, below</li>
@@ -320,10 +399,12 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/menudoproblema/libemqtt">libemqtt</a> - an embedded C client</li>
          <li><a href="https://github.com/LiamBindle/MQTT-C">MQTT-C</a> - A portable MQTT C client for embedded systems and PCs alike.</li>
          <li><a href="https://github.com/wolfSSL/wolfMQTT">wolfMQTT</a> - Embedded C client</li>
+         <li><a href="https://github.com/RealTimeLogic/SharkSSL/blob/main/src/SharkMQTT.c">SharkMQTT</a> - Embedded C client - <a href="https://realtimelogic.com/products/sharkmqtt/">more information</a> - <a href="https://realtimelogic.com/ba/doc/en/C/shark/group__MQTTLib.html">documentation</a></li>
          <li><a href="https://github.com/curl/curl">libcurl</a> - libcurl has basic support for publish and subscribe.</li>
          <li><a href="https://gitlab.com/rts_nepal/embedded/lwIP_mbedtls_mqtt_c">MQTT over lwIP</a> - MQTT C client for embedded systems using FreeRTOS, lwIP and mbedtls</li>
          <li><a href="http://smartfactory.openapc.com">libsmartfactory</a> - easy to use library for different Smart Factory/Industry 4.0 technologies including a MQTT client implementation</li>
          <li><a href="https://github.com/zhaojh329/libumqtt">libumqtt</a> - A Lightweight and fully asynchronous MQTT client C library based on libev</li>
+         <li><a href="https://github.com/innovasoft-org/libmqttcli">libmqttcli</a> - Easy to use, flexible and powerfull client library</li>
       </ul>
       <div class="subhead">C++</div>
       <ul>
@@ -331,6 +412,9 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <li><a href="http://mosquitto.org">libmosquittopp</a></li>
       <li><a href="https://www.eclipse.org/paho/clients/c/embedded/">Eclipse Paho Embedded C++</a></li>
       <li><a href="https://github.com/redboltz/mqtt_cpp">mqtt_cpp</a> - MQTT client and server library based on C++14 and Boost.Asio. It supports MQTT v3.1.1 and v5.</li>
+      <li><a href="https://github.com/redboltz/async_mqtt">async_mqtt</a> - MQTT client and server library based on C++17 and Boost.Asio. It supports MQTT v3.1.1 and v5.0. This is an evolved mqtt_cpp.</li>
+      <li><a href="https://github.com/X-Ryl669/eMQTT5">eMQTT5</a> - MQTT 5.0 client.</li>
+      <li><a href="https://github.com/mireo/async-mqtt5">Async.MQTT5</a> - A professional, industrial-grade C++17 MQTT v5.0 client built on Boost.Asio.</li> 
       </ul>
       <div class="subhead">Clojure</div>
       <ul>
@@ -365,6 +449,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/eclipse/paho.mqtt.golang">Eclipse Paho Go</a></li>
          <li><a href="https://github.com/jeffallen/mqtt">mqtt by jeffallen</a></li>
          <li><a href="https://github.com/pascaldekloe/mqtt">MQTT🤖</a></li>
+         <li><a href="https://github.com/soypat/natiu-mqtt">natiu-mqtt</a> - Dead simple, small MQTT implementation well suited for embedded systems</li>
       </ul>
       <div class="subhead">Haskell</div>
       <ul>
@@ -402,6 +487,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">Lua</div>
       <ul>
+          <li><a href="https://github.com/RealTimeLogic/BAS-Resources/blob/main/src/core/.lua/mqttc.lua">Barracuda App Server's MQTT Client</a> - <a href="https://realtimelogic.com/products/lua-mqtt/">more information</a> - <a href="https://realtimelogic.com/ba/doc/?url=MQTT.html">documentation</a></li>
          <li><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.lua.git/" >Eclipse Paho Lua</a></li>
          <li><a href="https://github.com/xHasKx/luamqtt/">luamqtt - Pure-lua MQTT client</a></li>
          <li><a href="https://github.com/zhaojh329/libumqtt">libumqtt</a></li>
@@ -409,6 +495,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">.NET / dotNET</div>
       <ul>
+         <li><a href="https://github.com/hivemq/hivemq-mqtt-client-dotnet">HiveMQtt</a> - The Spectacular C# MQTT Client for .NET</li>
          <li><a href="https://github.com/mFourLabs/KittyHawkMQ">KittyHawkMQ</a></li>
          <li><a href="https://github.com/chkr1011/MQTTnet">MQTTnet</a></li>
          <li><a href="http://sourceforge.net/projects/mqttdotnet/">MqttDotNet</a></li>
@@ -471,6 +558,11 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://rubygems.org/gems/em-mqtt">em-mqtt</a></li>
          <li><a href="https://github.com/xively/mosquitto">mosquitto</a></li>
       </ul>
+      <div class="subhead">Rust</div>
+      <ul>
+         <li><a href="https://github.com/bytebeamio/rumqtt">rumqttc</a> - A pure rust MQTT client which strives to be robust, efficient and easy to use supporting v3.1.1 and v5.0</li>
+         <li><a href="https://github.com/GunnarMorrigan/mqrstt">mqrstt</a> - Pure rust MQTTv5 client</li>
+      </ul>
       <div class="subhead">Shell Script</div>
       <ul>
          <li><a href="https://github.com/raphaelcohn/bish-bosh">bish-bosh</a>, supports bash, ash (including BusyBox), pdksh and mksh.</li>
@@ -495,6 +587,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <div class="panel">
       <div class="subhead">Web</div>
          <ul>
+            <li><a href="https://flowFuse.com/">FlowFuse</a> - is a secure hosted Node-RED platform that allows you to easily create MQTT applications using low-code and visual programming. </li>
             <li><a href="https://mqttboard.flespi.io">MQTT Board</a> - diagnostic oriented MQTT 5.0 client tool based on <a href="https://github.com/mqttjs">mqtt.js</a>. Available in <a href="https://github.com/flespi-software/mqtt-board">open source</a>.</li>
             <li><a href="https://mqtttiles.flespi.io">MQTT Tiles</a> - <a href="https://github.com/flespi-software/MQTT-Tiles">Open source</a> MQTT-based dashboard visualization tool.</li>
             <li><a href="http://test.mosquitto.org/ws.html">MQTT over websockets</a> (experimental) - from the mosquitto project.</li>
@@ -512,14 +605,21 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="https://github.com/eclipse/paho.mqtt.android">MQTT on Android</a></li>
             <li><a href="https://github.com/emqx/CocoaMQTT">MQTT on iOS</a></li>
          </ul>
+         <div class="subhead">Mobile tools</div>
+         <ul>
+            <li><a href="https://mymqtt.app">MyMQTT</a> - The simple Message Queuing Telemetry Transport client for Android and iOS</li>
+         </ul>
          <div class="subhead">Desktop tools</div>
             <ul>
+            <li><a href="https://www.mqttstudio.com">MQTT Studio</a> - A practical desktop and web client designed for developers to efficiently create, test, and manage MQTT-based applications, enhancing their development and support workflows.</li>
             <li><a href="https://mqtt-explorer.com">MQTT Explorer</a> - MQTT client to visualize, publish, subscribe, plot topics. Visualizes topics in a topic hierarchy. Intended for service integration, maintenance and refactorings.</li>
             <li><a href="https://github.com/francoisvdm/TT3">TT3</a> - a full featured windows MQTT client application using Paho libs.  Several additional features like performance testing and alerts.</li>
             <li><a href="http://kamilfb.github.io/mqtt-spy/">mqtt-spy</a> - the most advanced open source utility for monitoring activity on MQTT topics; based on the Paho Java client; for details see the <a href="http://kamilfb.github.io/mqtt-spy/">project's home page</a>.</li>
             <li><a href="http://mqttfx.org/">MQTT.fx</a> - MQTT.fx is a MQTT Client written in Java based on Eclipse Paho.</li>
             <li><a href="https://github.com/gambitcomminc/mqtt-stats">mqtt-stats</a> - MQTT Topic Statistics</li>
             <li><a href="https://github.com/emqx/MQTTX">MQTT X</a> - MQTT X is a cross-platform MQTT desktop client open sourced by EMQ, which supports macOS, Linux, and Windows. MQTT X adopts the form of chat interface, which simplifies the page operation, facilitates the user to quickly test the MQTT/MQTTS connection, publish and subscribe to MQTT messages.</li>
+            <li><a href="https://github.com/ptma/mqtt-insight">MqttInsight</a> - MqttInsight is an open source cross platform MQTT desktop client. Supports two message views: table and dialogue. And you can use scripts compatible with Node.js to extend message decoding, message forwarding, and other functions.</li>
+            <li><a href="https://github.com/ChxGuillaume/MQ3T">MQ3T</a> - A simple MQTT Desktop Client for developers. It allows you to visualize your MQTT Broker in a tree view, it also has an action system that helps you to repeat actions with the click of a button.</li>
          </ul>
          <div class="subhead">Command line tools</div>
             <ul>
@@ -528,14 +628,17 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
                <li><a href="https://github.com/hivemq/mqtt-cli/">MQTT CLI</a> is a useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1 backed by the HiveMQ team.</li>
                <li><a href="https://everything.curl.dev/usingcurl/mqtt">curl</a> - Basic support for publish and subscribe.</li>
                <li><a href="https://nanomq.io">NanoMQ pub/sub</a> - A high performance command-line toolkit for MQTT debugging and benchmarking, provided with nanomq package, backed by EMQ.</li>
+               <li><a href="https://github.com/volkanalkilic/ThingsOn.MQTT.Bench">ThingsOn MQTT Bench</a> - ThingsOn MQTT Bench is a simple Cross-platform .NET Core benchmark tool for MQTT brokers. It measures the maximum number of messages that can be sent to the broker in a specified amount of time.</li>
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
+            <li><a href="https://i-flow.io">i-flow</a> - is a tool that simplifies complex data handling between OT and IT systems through an MQTT based Industrial Unified Namespace (UNS), enabling seamless, scalable, and event-based communication across factory boundaries. </li>
             <li><a href="https://www.hivemq.com/hivemq-swarm/">HiveMQ Swarm</a> - provides the distributed simulation environment to successfully test millions of MQTT clients, millions of MQTT messages and hundreds of thousands MQTT topic names.</li>
             <li><a href="https://www.gambitcomm.com/site/mqttsimulator.php">MIMIC MQTT Simulator</a> - Thousands of publishers and/or subscribers for rapid prototyping of IoT Applications, performance testing and tuning of deployments.</li>
             <li><a href="https://www.bevywise.com/iot-simulator/">Bevywise IoT Simulator</a> - IoT Simulator provides complete functional and performance testing tools for the MQTT Platform, Application &amp; Devices Development.</li>
             <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - IA92 support pack includes very useful MQTT Java swing GUI for publishing &amp; subscribing.</li>
              <li><a href="https://www.ioctrl.com/mqttdesk/">ioctrl -MqttDesk MQTT Client</a> - MqttDesk is a Cross-Platform MQTT desktop Client with an easy &amp; customizable Dashboard, Connections &amp; Widgets developed for Makers, Freelancers, Prototypes &amp; Enterprises by ioCtrl.</li>
+             <li><a href="https://www.emqx.com/en/products/xmeter">XMeter</a> - Based on open-source Apache JMeter project and mqtt-jmeter plugin, XMeter provides a testing SaaS service to simulate millions of MQTT clients and MQTT messages.</li>            
          </ul>
          <div class="subhead">Desktop notification tools</div>
          <ul>
@@ -554,11 +657,14 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="https://www.opc-router.com/4_1-mqtt-client-opc-router-plug-in-en/">OPC Router</a> - MQTT Gateway (publisher/subscriber) with various plug-ins</li>
             <li><a href="https://github.com/Koenkk/zigbee2mqtt">zigbee2mqtt</a> - ZigBee gateway that exposes ZigBee certified devices (Philis Hue, Xiaomi Aqara, ...) via mqtt. Commonly used for home automation. <a href="https://www.zigbee2mqtt.io/information/supported_devices.html">list of supported devices</a></li>
             <li><a href="https://mqtt.cool">MQTT.Cool</a> - A web gateway that optimizes any MQTT broker when sending real-time data to web clients with automatic throttling.</li>
+            <li><a href="https://neugates.io/">Neuron</a> - An open-source, lightweight IIoT connectivity server that convert industrial protocol to MQTT, SparkPlugB etc.</li>
+            <li><a href="https://github.com/BlackZork/mqmgateway">MQM Gateway</a> - An open-source, lightweight C++ bidirectional Modbus RTU/TCP <=> MQTT Gateway with flexible data conversion on the fly</li>
          </ul>
          <div class="subhead">Misc</div>
             <ul>
             <li><a href="http://eclipse.org/paho">Eclipse Paho</a> - provides an Eclipse view which can interact with a broker for testing.</li>
             <li><a href="https://github.com/jpmens/mqtt-watchdir">mqtt-watchdir</a> - recursively watch a directory for modifications and publish file content to an MQTT broker.</li>
+            <li><a href="https://github.com/volkanalkilic/Mqtt-File-Uploader">MQTT File Uploader</a> - MQTT File Uploader is a simple Cross-platform .NET Core application that watches local directories for changes and uploads new or modified files to an MQTT broker.</li>
             </ul>
    </div>
    <!-- Tools and Applications Panel -->
@@ -578,6 +684,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://false.ekta.is/2011/06/mqtt-dissector-decoder-for-wireshark/">Wireshark</a> - a partial MQTT dissector/decoder for Wireshark</li>
             <li><a href="https://github.com/Johann-Angeli/wireshark-plugin-mqtt">Wireshark</a> - a full MQTT dissector/decoder for Wireshark</li>
             <li><a href="https://code.google.com/p/zmqtt/">zmqtt</a> – an MQTT module for Zotonic, an Erlang framework</li>
+            <li><a href="https://github.com/emqx/mqtt-jmeter">mqtt-jmeter plugin</a> – An open source JMeter plugin for MQTT performance test, widely adopted within IoT platform testing domain.</li>
          </ul>
    </div>
    <!-- End of Plugins Panel -->
@@ -598,8 +705,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://www.choral.it">Choral</a> - Choral GPS/GSM tracking module (check which models have MQTT)</li>
             <li><a href="https://www.lindsay.com/lam/en/irrigation/brands/elecsys/our-solutions/monitoring-control-solutions/oil-gas-water/industrial-data-communications/">Elecsys</a> - Elecsys Industrial Communications Gateway and Remote Monitors</li>
             <li><a href="https://www.flukso.net/">Flukso</a> - Fluksometer, an electricity metering device with native MQTT support</li>
+            <li><a href="http://raaareware.de/">rAAAreware</a> - MQTT modules for handheld measuring devices, MQTT displays, MQTT remote control</li>
             <li><a href="http://www.remakeelectric.com/">ReMake</a> - ReMake Electric electricity metering systems publish all readings to the on-device MQTT broker.</li>
             <li><a href="http://www.owasys.com">Owasys</a> - The owa11 model is an IP67 asset tracking and telemetry unit reporting location, events and IO information using MQTT</li>
+            <li><a href="https://www.umh.app">United Manufacturing Hub</a> - The Open-Source toolkit to build your own reliable and secure Industrial IoT platform (strongly leverages MQTT in the Industrial IoT)</li>
          </ul>
    </div>
 </section>
