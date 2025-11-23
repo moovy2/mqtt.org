@@ -690,6 +690,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://fabian-affolter.ch/blog/zenity-notifications-for-mqtt-messages/">Zenity notifications</a> for MQTT messages.</li>
             <li><a href="http://fabian-affolter.ch/blog/desktop-notifications-for-mqtt-messages/">Desktop notifications</a> for MQTT messages with DBUS.</li>
             <li><a href="http://fabian-affolter.ch/blog/mqtt-and-desktop-notifications/">Desktop notifications</a> with libnotify.</li>
+            <li><a href="https://mqtt-ble.com">MQTTfy AI Powered -MQTT Client</a> - MQTTfy provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT devices and applications. Perfect for IoT, IIoT, and home automation..</li>
          </ul>
          <div class="subhead">Gateways</div>
          <ul>
